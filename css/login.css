@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#geral{
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+img{
+
+    height: 50px;
+    width: 150px;
+    margin: 15px auto;
+}
+form{
+    width: 280px;
+    margin: 10px auto 40px;
+    border: solid 0.8px black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 1px 2px 4px black;
+}
+form > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+label{
+    display: block;
+    font-size: 15px;
+    margin: 12px 0px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+input[id]:focus{
+    background-color: gray;
+    color: white;
+}
+input[type="submit"]{
+    margin: 10px 0px;
+    background-color: #efbf47;
+    padding: 10px;
+    border: 1px solid gray;
+}
+form p{
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: .9px;
+}
+form p > #login{
+    text-decoration: unset;
+}
+form p > #login:hover{
+    text-decoration: underline;
+    color: black;;
+}
+form p:nth-child(11){
+    margin-bottom: 10px;
+}
+
+
+footer{
+    margin: 0px;
+    text-align: center;
+    background-image: linear-gradient(rgb(247, 247, 247) , white);
+    padding: 30px;
+}
+.bloco-footer{
+    margin-bottom: 25px;
+}
+.bloco-footer a{
+    margin: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+.bloco-footer a:hover{
+    text-decoration: unset;
+    color: black;
+}
+#copy{
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 800px){
+    form{
+        width: 350px;
+        margin: 10px auto 40px;
+        border: solid 0.8px black;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: left;
+        box-shadow: 1px 2px 4px black;
+    }
+    .bloco-footer a{
+        margin: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+    }
+    #copy{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
